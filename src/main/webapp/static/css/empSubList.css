@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+:root {
+	--main-font-color: white;
+	--main-background-color: rgb(13, 2, 208);
+	--box-color: rgb(250, 250, 250);
+	--button-back: lightgray;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background-color: var(--main-font-color);
+	display: flex;
+	flex-direction: column;
+}
+
+#header {
+	color: var(--main-font-color);
+	background-color: var(--main-background-color);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 10px;
+	align-items: center;
+}
+
+#main {
+	margin:13% auto;
+	flex: 1;
+}
+#main2 {
+	margin:10% auto;
+	flex: 1;
+}
+
+#mainPage {
+	font-size: 5rem;
+	display: flex;
+	justify-content: column;
+
+}
+#subList{
+	font-size: 1.3rem;	
+}
+
+#myPage {
+	font-size: 1.3rem;
+	text-align: right;
+}
+#insertDiv{
+	text-align: right;
+	margin-right: 59px;
+}
+
+#footer {
+	color: var(--main-font-color);
+	font-size: 1.3rem;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	background-color: var(--main-background-color);
+}
+
+th{
+	background-color: var(--button-back);
+}
+
+button:hover{
+	background-color: var(--main-background-color);
+	color: var(--main-font-color);
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-font-color);
+}
